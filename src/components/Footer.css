@@ -1,7 +1,36 @@
+@font-face {
+  font-family: "nanum-r";
+  src: url("../fonts/NanumGothic-Regular.ttf");
+}
+
+@font-face {
+  font-family: "nanum-eb";
+  src: url("../fonts/NanumGothic-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "nanum-b";
+  src: url("../fonts/NanumGothic-Bold.ttf");
+}
+
 .Foot {
   background-color: #363a43;
   color: #bfbfbf;
   padding: 0.8rem;
+}
+
+.Logoleft {
+  padding: 1rem;
+  float: left;
+}
+
+.Info {
+  float: left;
+  font-family: "nanum-r";
+}
+
+.Clear {
+  clear: both;
 }
 
 .Logo {

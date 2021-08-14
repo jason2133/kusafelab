@@ -4,16 +4,27 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="Foot">
-          <p>Instagram : @korea_university_smart</p>
-          <p>Copyright (C) 2021 Korea University. All Rights Reserved.</p>
-          <div className="Logo">
-            <a href="https://stat.korea.ac.kr/stat/index.do" target="_blank" rel="noreferrer">
-                <img src = {require('../img/ku_tiger.svg').default} alt="" />
-            </a>
-            <a href="https://stat.korea.ac.kr/stat/index.do" target="_blank" rel="noreferrer">
-                <img src = {require('../img/insta76.png').default} alt="" />
-            </a>            
-          </div>
+            <div className="Logoleft">
+                <a href="https://kugc.korea.ac.kr/kugc/index.do" target="_blank" rel="noreferrer">
+                    <img src = {require('../img/ku_tiger.svg').default} alt="" />
+                </a>
+            </div>
+            
+            <div className="Info">
+                <p><b>고려대학교 스마트캠퍼스 커넥터</b> 
+                <br/>안전한 연구실팀
+                </p>
+                <p>[02841] 서울특별시 성북구 안암로 145 고려대학교 서울캠퍼스
+                <br/>TEL: 02-3290-
+                <br/>E-mail: <b>@korea.ac.kr</b> 
+                {/* <br/>Instagram: 
+                    <a href="https://www.instagram.com/korea_university_smart/" target="_blank" rel="noreferrer">
+                    <img src = {require('../img/insta76.png').default} alt="" />
+                    </a> */}
+                </p>
+                <p>Copyright (C) 2021 Korea University. All Rights Reserved.</p>
+            </div>
+            <div className="Clear"></div>
         </div>
     )
 }

@@ -8,7 +8,9 @@ const Bar = () => {
     return (
         <div className = "Template">
             {/* https://sugang.korea.ac.kr/resources/img/login/logo.png */}
-            <img src = {require('../img/logo.png').default} alt="" />
+            <a href="/">
+                <img src = {require('../img/logo.png').default} alt="" />
+            </a>
         </div>
     )
 }
