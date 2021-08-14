@@ -1,0 +1,16 @@
+/* .Template {
+  width: 512px;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bar-title {
+  color: red;
+} */
+
+.Template {
+  background: #8d192b;
+  padding: 1rem;
+  text-align: center;
+}
