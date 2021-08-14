@@ -11,6 +11,7 @@
 
 .Template {
   background: #8d192b;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
+  /* position: fixed; */
 }

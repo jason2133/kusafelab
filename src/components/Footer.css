@@ -17,6 +17,8 @@
   background-color: #363a43;
   color: #bfbfbf;
   padding: 0.8rem;
+  /* 하단 고정 */
+  /* position: relative; */
 }
 
 .Logoleft {
@@ -27,6 +29,7 @@
 .Info {
   float: left;
   font-family: "nanum-r";
+  /* position: fixed; */
 }
 
 .Clear {
