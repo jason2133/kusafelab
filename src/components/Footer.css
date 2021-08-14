@@ -40,3 +40,18 @@
   padding: 1rem;
   text-align: center;
 }
+
+a:link {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8d192b;
+  text-decoration: none;
+}

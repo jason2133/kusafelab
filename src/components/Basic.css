@@ -1,5 +1,31 @@
 .container {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  /* justify-content: center; */
+  /* background-size: cover; */
+}
+
+.name {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.name span {
+  color: white;
+}
+
+.name span:nth-child(1) {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "nanum-eb";
+}
+
+.name span:nth-child(2) {
+  font-size: 1rem;
+  font-family: "nanum-r";
+  padding-top: 0.7rem;
 }
 
 .content {

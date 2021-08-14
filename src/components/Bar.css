@@ -12,6 +12,10 @@
 .Template {
   background: #8d192b;
   padding: 0.5rem;
-  text-align: center;
   /* position: fixed; */
+}
+
+.logo {
+  text-align: left;
+  padding-left: 0.5rem;
 }
