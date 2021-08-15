@@ -5,7 +5,7 @@ import Basic from './components/Basic'
 import Footer from './components/Footer'
 
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-// import { Route } from 'react-router-dom'
+// import { Router } from 'react-router-dom'
 // import { BrowserRouter } from 'react-router-dom';
 // import Homes from './pages/Homes'
 // import Products from './pages/Products'
@@ -22,11 +22,14 @@ function App() {
         <Footer />
       </Router>
 
-      {/* <BrowserRouter>
-        <Route path="/Home" component={Homes}/>
-        <Route path="/product" component={Products}/>
-        <Route path="/about" component={Reports}/>
-      </BrowserRouter> */}
+      {/* <Router>
+        <Switch>
+            <Route path="/" exact component={Homes}/>
+            <Route path="/products" component={Products}/>
+            <Route path="/reports" component={Reports}/>
+        </Switch>
+      </Router> */}
+
     </div>
 
     // <img src="./logo.png" />
