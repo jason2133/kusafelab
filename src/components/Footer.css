@@ -51,17 +51,17 @@
 }
 
 a:link {
-  color: #bfbfbf;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: #bfbfbf;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  color: #bfbfbf;
   /* #8d192b */
   text-decoration: none;
 }
