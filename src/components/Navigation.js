@@ -9,7 +9,6 @@ function Navigation () {
 
     if (showMenu) {
         menu =
-        // className="fixed bg-white top-0 left-0 w-4/5 h-full" 
         <div>
             The menu
             <a href="/"><br/>김대중</a>
@@ -22,7 +21,7 @@ function Navigation () {
         <nav>
             <FontAwesomeIcon 
               icon={faBars} 
-              style={{color: "#FFF"}}
+              style={{color: "#FFF" }}
               onClick={() => setShowMenu(!showMenu)}
             />
 

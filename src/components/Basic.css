@@ -26,12 +26,55 @@
   font-size: 5vw;
   font-family: "nanum-r";
   padding-top: 0.7rem;
+  line-height: 1.7rem;
 }
 
-.content {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.intro {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   text-align: center;
   font-family: "nanum-r";
   font-size: 3.75vw;
+}
+
+.photo {
+  display: flex;
+}
+
+.phototitle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  font-family: "nanum-r";
+  font-size: 2vw;
+}
+
+.writing {
+  /* padding-top: 0.5rem; */
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: left;
+  font-family: "nanum-r";
+  font-size: 3.3vw;
+  line-height: 1.4rem;
+}
+
+.vision {
+  /* padding-top: 1.5rem; */
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-family: "nanum-r";
+  font-size: 3.75vw;
+}
+
+.writing2 {
+  /* padding-top: 0.5rem; */
+  padding-bottom: 1.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: left;
+  font-family: "nanum-r";
+  font-size: 3.3vw;
+  line-height: 1.4rem;
 }
