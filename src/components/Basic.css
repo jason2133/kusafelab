@@ -9,7 +9,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 6vw;
 }
 
 .name span {
@@ -18,12 +18,12 @@
 
 .name span:nth-child(1) {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 7vw;
   font-family: "nanum-eb";
 }
 
 .name span:nth-child(2) {
-  font-size: 1rem;
+  font-size: 5vw;
   font-family: "nanum-r";
   padding-top: 0.7rem;
 }
@@ -33,5 +33,5 @@
   padding-bottom: 1rem;
   text-align: center;
   font-family: "nanum-r";
-  font-size: 1rem;
+  font-size: 3.75vw;
 }
