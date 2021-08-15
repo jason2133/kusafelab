@@ -53,6 +53,7 @@ a:visited {
 }
 
 a:hover {
-  color: #8d192b;
+  color: white;
+  /* #8d192b */
   text-decoration: none;
 }

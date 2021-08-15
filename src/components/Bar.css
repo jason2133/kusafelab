@@ -19,3 +19,7 @@
   text-align: left;
   padding-left: 0.5rem;
 }
+
+.toggle {
+  text-align: right;
+}

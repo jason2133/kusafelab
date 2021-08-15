@@ -1,5 +1,6 @@
 import React from 'react'
 import './Bar.css'
+import Navigation from './Navigation'
 
 // style="margin-left: auto; margin-right: auto; display: block;"
 // width="35%" height="35%"
@@ -12,6 +13,9 @@ const Bar = () => {
                 <a href="/">
                     <img src = {require('../img/logo.png').default} alt="" />
                 </a>
+            </div>
+            <div className="toggle">
+                <Navigation />
             </div>
         </div>
     )
