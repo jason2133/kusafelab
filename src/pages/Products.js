@@ -3,7 +3,7 @@ import React from 'react'
 function Products() {
     return (
         <div>
-            언제부터 한방에간다 한방에간다 그러더니
+            <h1>프로덕트</h1>
         </div>
     )
 }

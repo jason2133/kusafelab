@@ -17,13 +17,8 @@ const Basic = () => {
               <br/>Korea University
             </span>
           </div>
-          
-          {/* <div className="topleft">
-          <h1>KU SAFE LAB</h1>
-          <h4>Smart Campus Connector,
-          <br/>Korea University</h4> 
-          </div> */}
-          </div>
+            
+        </div>
           
           <div className="intro">
             <p><b>고려대학교 스마트캠퍼스 커넥터는</b></p>

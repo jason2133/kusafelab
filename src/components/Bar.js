@@ -11,7 +11,7 @@ const Bar = () => {
             {/* https://sugang.korea.ac.kr/resources/img/login/logo.png */}
             <div className="logo">
                 <a href="/">
-                    <img src = {require('../img/logo.png').default} alt="" />
+                    <img src = {require('../img/logo140.png').default} alt="" />
                 </a>
                 {/* <div className="toggle"> */}
                     {/* <Toggle /> */}

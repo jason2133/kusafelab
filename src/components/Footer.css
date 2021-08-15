@@ -22,15 +22,22 @@
 }
 
 .Logoleft {
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3vw;
   float: left;
+  display: flex;
+  /* width: 10vw; */
 }
 
 .Info {
   float: left;
   font-family: "nanum-r";
   /* position: fixed; */
-  font-size: 0.8rem;
+  font-size: 3vw;
+  /* padding-left: 1rem; */
+  /* max-width: 100%;
+  height: auto; */
 }
 
 .Clear {

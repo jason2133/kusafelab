@@ -11,8 +11,10 @@
 
 .Template {
   background: #8d192b;
-  padding: 0.5rem;
-  /* position: fixed; */
+  position: fixed;
+  padding: 0.6rem;
+  width: 100%;
+  z-index: 1;
 }
 
 .logo {

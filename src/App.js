@@ -4,26 +4,25 @@ import Bar from './components/Bar'
 import Basic from './components/Basic'
 import Footer from './components/Footer'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
-import Homes from './pages/Homes'
-import Reports from './pages/Reports'
-import Products from './pages/Products'
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// import { Route } from 'react-router-dom'
+// import { BrowserRouter } from 'react-router-dom';
+// import Homes from './pages/Homes'
+// import Products from './pages/Products'
+// import Reports from './pages/Reports'
 
 function App() {
   return (
     <div>
-      <Router>
-        <Bar />
-        <Switch>
-          <Route path='/homes' component={Homes} />
-          <Route path='/reports' component={Reports} />
-          <Route path='/products' component={Products} />
-        </Switch>
-      </Router>
-    
+      <Bar />
       <Basic />
       <Footer />
+
+      {/* <BrowserRouter>
+        <Route path="/Home" component={Homes}/>
+        <Route path="/product" component={Products}/>
+        <Route path="/about" component={Reports}/>
+      </BrowserRouter> */}
     </div>
 
     // <img src="./logo.png" />
