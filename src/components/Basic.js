@@ -6,7 +6,7 @@ import './Basic.css'
 
 const Basic = () => {
     return (
-      <>
+      <div className="basicintro">
         <div className="container">
           {/*  width="100%" height="100%" */}
           <img src={require("../img/back70.PNG").default} alt="" width="100%" height="100%" />
@@ -39,7 +39,7 @@ const Basic = () => {
           </div>
           <div className="writing">
             <p><b>꾸준히 발생하는 대학 실험실 사고 (2007 ~ 2015)</b></p>
-            <p>과학기술정보통신부에 따르면 2007~2015년 대학과 정부 출연 연구 기관 등의 실험실에서 난 안전사고는 총 1122건에 달합니다.
+            <p>미래창조과학부(現 과학기술정보통신부)에 따르면 2007~2015년 대학과 정부 출연 연구 기관 등의 실험실에서 난 안전사고는 총 1122건에 달합니다.
               이 가운데 약 89%(999건)가 대학에서 발생했습니다. 사흘에 한 번꼴(연평균 111건)로 대학 실험실에서 안전사고가 발생한 셈입니다.
             </p>
           </div>
@@ -97,8 +97,7 @@ const Basic = () => {
             <p>- 안전포켓북, 비상대응절차, 알림서비스 등 구축
             </p>
           </div>
-
-      </>
+      </div>
     )
 }
 

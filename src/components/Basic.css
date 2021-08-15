@@ -1,8 +1,14 @@
+/* .basicintro {
+  padding-top: 2rem;
+} */
+
 .container {
   /* position: relative; */
   display: flex;
   /* justify-content: center; */
   /* background-size: cover; */
+  /* margin-top: 2rem; */
+  /* padding-top: 2rem; */
 }
 
 .name {
@@ -26,7 +32,7 @@
   font-size: 5vw;
   font-family: "nanum-r";
   padding-top: 0.7rem;
-  line-height: 1.7rem;
+  line-height: 150%;
 }
 
 .intro {
@@ -57,7 +63,7 @@
   text-align: left;
   font-family: "nanum-r";
   font-size: 3.3vw;
-  line-height: 1.4rem;
+  line-height: 200%;
 }
 
 .vision {
@@ -76,5 +82,5 @@
   text-align: left;
   font-family: "nanum-r";
   font-size: 3.3vw;
-  line-height: 1.4rem;
+  line-height: 200%;
 }
