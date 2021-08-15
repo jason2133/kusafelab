@@ -5,7 +5,7 @@ import * as IoIcons from 'react-icons/io'
 
 export const SidebarData = [
     {
-        title: '안전 관리',
+        title: "교내 연구실 안전사고 통계",
         path: '/',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
@@ -17,11 +17,23 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: '안전',
+        title: '비상시 대피 안내',
         path: '/',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
-    }
+    },
+    {
+        title: '응급상황 전화번호',
+        path: '/',
+        icon: <AiIcons.AiFillHome />,
+        cName: 'nav-text'
+    },
+    {
+        title: '비상시 대피 안내',
+        path: '/',
+        icon: <AiIcons.AiFillHome />,
+        cName: 'nav-text'
+    },       
 ]
 
 
