@@ -19,7 +19,7 @@
 
 .nav-menu {
   background-color: #8d192b;
-  width: 250px;
+  width: 240px;
   /* 250px */
   height: 100vh;
   display: flex;
@@ -50,7 +50,7 @@
 .nav-text a {
   text-decoration: none;
   color: #f5f5f5;
-  font-size: 17px;
+  font-size: 16px;
   width: 95%;
   height: 100%;
   display: flex;
