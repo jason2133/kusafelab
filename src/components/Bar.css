@@ -12,8 +12,11 @@
 .Template {
   background: #8d192b;
   position: fixed;
-  padding: 0.6rem;
+  padding-top: 0.6rem;
+  padding-left: 0.6rem;
+  padding-bottom: 0.6rem;
   width: 100%;
+  height: auto;
   z-index: 1;
 }
 
@@ -22,7 +25,14 @@
   padding-left: 0.5rem;
 }
 
-/* .toggle {
-  text-align: right;
+.toggle {
   float: right;
-} */
+  /* text-align: center; */
+  padding-right: 2rem;
+}
+
+.toggle2 {
+  float: right;
+  /* text-align: center; */
+  padding-right: 2rem;
+}

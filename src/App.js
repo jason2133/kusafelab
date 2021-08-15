@@ -11,12 +11,16 @@ import Footer from './components/Footer'
 // import Products from './pages/Products'
 // import Reports from './pages/Reports'
 
+import { BrowserRouter as Router } from 'react-router-dom';
+
 function App() {
   return (
     <div>
-      <Bar />
-      <Basic />
-      <Footer />
+      <Router>
+        <Bar />
+        <Basic />
+        <Footer />
+      </Router>
 
       {/* <BrowserRouter>
         <Route path="/Home" component={Homes}/>
