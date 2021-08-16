@@ -10,6 +10,12 @@
   font-size: 3.75vw;
 }
 
+.select {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+
 .photobuilding {
   display: flex;
   padding-left: 1rem;
