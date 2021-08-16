@@ -3,12 +3,12 @@
 export const SidebarData = [
     {
         title: "일일 안전 점검 체크리스트",
-        path: '/daily',
+        path: '/check',
         cName: 'nav-text'
     },
     {
         title: '연구실 안전 인지도 점검',
-        path: '/check',
+        path: '/test',
         cName: 'nav-text'
     },
     {

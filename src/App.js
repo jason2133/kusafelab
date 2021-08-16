@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <Switch>
             <Route path="/" exact component={Main}/>
-            <Route path="/daily" component={Daily}/>
+            <Route path="/test" component={Daily}/>
             <Route path="/check" component={Check}/>
             <Route path="/exit" component={Exit}/>
             <Route path="/tel" component={Tel}/>
