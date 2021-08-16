@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Select from 'react-select'
 
 import './DetailExit.css'
 
 const DetailExit = () => {
+    const [choice, setChoice] = useState(0)
+
+    const onChange = (value) => {
+        if ('a1') {
+            console.log('가')
+        }
+        else if ('a2') {
+            console.log('나')
+        }
+    }
+
     const options = [
         // a : 생명과학대학
         { value: 'a1', label: '생명과학관(동관)'},
@@ -41,7 +52,19 @@ const DetailExit = () => {
     ]
 
     const MyComponent = () => (
-        <Select options={options} />
+        // <Select options={options} />
+        <Select 
+        styles = {{ // zIndex 
+            menu: provided => ({...provided, zIndex: 999}) 
+        }} 
+        value={options.find(op => { // choice state에 따라 디폴트 option 세팅 
+            return op.value === choice 
+        })} 
+        placeholder="건물을 선택하세요." 
+        onChange={(value) => { 
+            onChange(value.value); 
+        }}
+        options={options} />
     )
 
     return (
