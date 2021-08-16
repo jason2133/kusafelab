@@ -1,41 +1,33 @@
 import React from 'react'
 import './App.css';
-import Bar from './components/Bar'
-import Basic from './components/Basic'
-import Footer from './components/Footer'
 
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Switch, Route } from 'react-router-dom'
 // import { Router } from 'react-router-dom'
-// import { BrowserRouter } from 'react-router-dom';
-// import Homes from './pages/Homes'
-// import Products from './pages/Products'
-// import Reports from './pages/Reports'
+import { BrowserRouter } from 'react-router-dom';
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import Main from './pages/Main'
+import Daily from './pages/Daily'
+import Check from './pages/Check'
+import Exit from './pages/Exit'
+import Tel from './pages/Tel'
+import Stat from './pages/Stat'
+
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Router>
-        <Bar />
-        <Basic />
-        <Footer />
-      </Router>
-
-      {/* <Router>
+      <BrowserRouter>
         <Switch>
-            <Route path="/" exact component={Homes}/>
-            <Route path="/products" component={Products}/>
-            <Route path="/reports" component={Reports}/>
+            <Route path="/" exact component={Main}/>
+            <Route path="/daily" component={Daily}/>
+            <Route path="/check" component={Check}/>
+            <Route path="/exit" component={Exit}/>
+            <Route path="/tel" component={Tel}/>
+            <Route path="/stat" component={Stat}/>
         </Switch>
-      </Router> */}
-
+      </BrowserRouter>
     </div>
-
-    // <img src="./logo.png" />
-    // <div className="App">
-    //     <h1>고려대학교</h1>
-    // </div>
   );
 }
 
