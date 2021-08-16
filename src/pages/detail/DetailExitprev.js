@@ -8,10 +8,10 @@ const DetailExit = () => {
 
     const onChange = (value) => {
         if ('a1') {
-            <h3>강강</h3>
+            console.log('가')
         }
         else if ('a2') {
-            <h3>수얼래</h3>
+            console.log('나')
         }
     }
 

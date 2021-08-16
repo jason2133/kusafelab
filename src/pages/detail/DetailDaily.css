@@ -15,3 +15,16 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.quiz {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "nanum-r";
+  font-size: 3.75vw;
+  line-height: 200%;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 2rem;
+}
