@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import Bar from '../components/Bar'
 import DetailCheck from './detail/DetailCheck'
 import CheckList from './check/CheckList'
@@ -60,11 +60,22 @@ function Check() {
         },                                                   
     ])
 
+    const onToggle = useCallback(
+        id => {
+          setTodos(
+            todos.map(todo =>
+              todo.id === id ? { ...todo, checked: !todo.checked } : todo,
+            ),
+          );
+        },
+        [todos],
+      );
+
     return (
         <>
         <Bar/>
         <DetailCheck/>
-        <CheckList todos={todos}/>
+        <CheckList todos={todos} onToggle={onToggle}/>
         <Footer/>
         </>
     )
