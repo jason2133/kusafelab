@@ -25,6 +25,15 @@
 }
 
 .button {
-  text-align: center;
+  /* text-align: center; */
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* display: grid; */
+  /* grid-row-gap: 1.5rem; */
+}
+
+.ox {
+  padding-left: 1rem;
 }
