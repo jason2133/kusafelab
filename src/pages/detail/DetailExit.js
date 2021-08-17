@@ -13,6 +13,9 @@ const DetailExit = () => {
         else if ('a2') {
             <h3>수얼래</h3>
         }
+        else if ('a3'){
+            <h3>강강강강강</h3>
+        }
     }
 
     const options = [
