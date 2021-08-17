@@ -4,7 +4,8 @@ import Select from 'react-select'
 import './DetailExit.css'
 
 const DetailExit = () => {
-    const [choice, setChoice] = useState(0)
+    const [choice] = useState(0)
+    // const [choice, setChoice] = useState(0)
 
     const onChange = (value) => {
         if ('a1') {
