@@ -7,6 +7,7 @@ const DetailDaily = () => {
             var a1 = 1;
         }
         else if (document.test.q1[1].checked) {
+            // eslint-disable-next-line
             var a1 = 0;
         }
 
@@ -14,6 +15,7 @@ const DetailDaily = () => {
             var a2 = 1;
         }
         else if (document.test.q2[1].checked) {
+            // eslint-disable-next-line
             var a2 = 0;
         }
 
@@ -21,6 +23,7 @@ const DetailDaily = () => {
             var a3 = 1;
         }
         else if (document.test.q3[1].checked) {
+            // eslint-disable-next-line
             var a3 = 0;
         }
 
@@ -28,6 +31,7 @@ const DetailDaily = () => {
             var a4 = 1;
         }
         else if (document.test.q4[1].checked) {
+            // eslint-disable-next-line
             var a4 = 0;
         }
 
@@ -35,6 +39,7 @@ const DetailDaily = () => {
             var a5 = 1;
         }
         else if (document.test.q5[1].checked) {
+            // eslint-disable-next-line
             var a5 = 0;
         }
 
