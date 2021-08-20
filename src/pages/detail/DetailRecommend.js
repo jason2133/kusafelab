@@ -67,6 +67,12 @@ const DetailRecommend = () => {
                 <b><p>본 서비스가 대학원생들이 논문을 작성하는데 있어</p> 
                 <p>많은 도움이 되기를 바랍니다.</p></b>
             </div>
+            <div className="photo">
+                <img src={require("../../img/qrcode_recommend.png").default} alt="" width="100%" height="100%" />
+            </div>
+            <div className="phototitle">
+              <p>QR 코드로 접속!</p>
+            </div>
             <div className="intro">
                 <b><p>빅데이터에 기반한 텍스트 마이닝과 유사도 분석을 통해</p>
                 <p>최적의 논문을 알려주는 고려대학교 AI 선배.</p>
