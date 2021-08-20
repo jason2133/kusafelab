@@ -54,6 +54,9 @@ const DetailDaily = () => {
         else if (3.9 < score & score < 5.1) {
             alert('내가 바로 실험왕! 안전하게 실험을 하고 계시네요.')
         }
+        else {
+            alert('모든 문항에 답해주시기 바랍니다.')
+        }
     }
 
     function reset() {

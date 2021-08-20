@@ -26,6 +26,11 @@ export const SidebarData = [
         path: '/stat',
         cName: 'nav-text'
     },       
+    {
+        title: '맞춤형 논문 추천 서비스',
+        path: '/recommend',
+        cName: 'nav-text'
+    },
 ]
 
 
