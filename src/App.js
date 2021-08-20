@@ -12,6 +12,7 @@ import Exit from './pages/Exit'
 import Tel from './pages/Tel'
 import Stat from './pages/Stat'
 import Recommend from './pages/Recommend'
+import Site from './pages/Site'
 
 // import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -26,7 +27,8 @@ function App() {
             <Route path="/exit" component={Exit}/>
             <Route path="/tel" component={Tel}/>
             <Route path="/stat" component={Stat}/>
-            <Route path="/recommend" component={Recommend}/>       
+            <Route path="/recommend" component={Recommend}/>
+            <Route path="/site" component={Site}/>        
         </Switch>
       </BrowserRouter>
     </div>

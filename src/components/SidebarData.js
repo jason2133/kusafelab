@@ -31,6 +31,11 @@ export const SidebarData = [
         path: '/recommend',
         cName: 'nav-text'
     },
+    {
+        title: '관련 사이트',
+        path: '/site',
+        cName: 'nav-text'
+    },
 ]
 
 

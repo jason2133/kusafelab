@@ -1,0 +1,17 @@
+.upper {
+  padding-top: 3.5rem;
+}
+
+.intro {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-family: "nanum-r";
+  font-size: 3.75vw;
+}
+
+.photo {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
