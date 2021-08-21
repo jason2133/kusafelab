@@ -8,7 +8,7 @@ const DetailExit = () => {
     // const [choice, setChoice] = useState(0)
 
     const onChange = (value) => {
-        // const setImage = value.image
+    
     }
 
     const options = [
