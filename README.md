@@ -14,7 +14,10 @@ Korea University Connector - Safe Lab
 
 
 ### 관련 사이트
-##### [Instagram](https://instagram.com/korea_university_smart)
-##### [고려대학교 안전관리팀](https://kugc.korea.ac.kr)
+[Instagram](https://instagram.com/korea_university_smart)
+
+[고려대학교 디지털정보처](https://data.korea.ac.kr/)
+
+[고려대학교 안전관리팀](https://kugc.korea.ac.kr)
 
 
