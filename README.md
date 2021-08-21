@@ -7,6 +7,13 @@
 
 Korea University Connector - Safe Lab
 
+### Web Development Stack
+- React.js
+- Node.js
+- HTML
+- CSS
+- JavaScript
+
 ### 언론 보도
 [‘고연전 메타버스로 열린다’…SKT·고려대, 스마트 캠퍼스 구축 (조선비즈, 2021)](https://biz.chosun.com/it-science/ict/2021/07/15/FJIOSF7HAVHFXFR22ES7FK2FAE/)  
 
