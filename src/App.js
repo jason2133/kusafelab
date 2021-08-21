@@ -16,11 +16,14 @@ import Site from './pages/Site'
 
 // import { BrowserRouter as Router } from 'react-router-dom';
 
+import ScrollToTop from './ScrollToTop'
+
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Switch>
+          <ScrollToTop/>
             <Route path="/" exact component={Main}/>
             <Route path="/test" component={Daily}/>
             <Route path="/check" component={Check}/>
@@ -28,7 +31,7 @@ function App() {
             <Route path="/tel" component={Tel}/>
             <Route path="/stat" component={Stat}/>
             <Route path="/recommend" component={Recommend}/>
-            <Route path="/site" component={Site}/>        
+            <Route path="/site" component={Site}/>            
         </Switch>
       </BrowserRouter>
     </div>

@@ -6,7 +6,6 @@ import './MenuTab.css'
 import { Link } from 'react-router-dom'
 import { SidebarData } from './SidebarData'
 
-
 function MenuTab() {
     const [sidebar, setSidebar] = useState(false)
 
