@@ -27,4 +27,8 @@ Korea University Connector - Safe Lab
 
 [고려대학교 안전관리팀](https://kugc.korea.ac.kr)
 
+### 관련 활동
+- 고려대학교 스마트캠퍼스 커넥터 - 안전한 연구실 팀
+
+![스마트캠퍼스 커넥터 모니터링단 모집 포스터_web (1)](https://user-images.githubusercontent.com/37537208/130659195-de72f58a-1940-4301-a1d2-ae89248b3437.jpg)
 
