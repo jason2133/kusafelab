@@ -21,7 +21,9 @@ Korea University Connector - Safe Lab
 
 
 ### 관련 사이트
-[Instagram](https://instagram.com/korea_university_smart)
+[Instagram](https://instagram.com/koreauniv.smart)
+
+[고려대학교 스마트캠퍼스 구축단](https://linktr.ee/smartku)
 
 [고려대학교 디지털정보처](https://data.korea.ac.kr/)
 
